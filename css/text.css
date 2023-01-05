@@ -1,0 +1,17 @@
+.center {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  html, body 
+  { 
+   height: 100%;
+   overflow-x: hidden
+  }
+
+  .centerim {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
