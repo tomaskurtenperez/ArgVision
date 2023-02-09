@@ -1,7 +1,5 @@
 .center {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
+    margin: 1%;
   }
   html, body 
   { 
@@ -18,25 +16,28 @@
 
   p{
     font-style: oblique;
+    justify-content: center; 
   }
 
   h1,h2,h3{
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    font-weight: bold;  
+    font-weight: bold;
+    display: flex;
+    justify-content: center;  
   }
 
-.logo {
+#logo {
     width: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
   }
   
 @media (max-width:767px) {
-.logo {
-      margin-bottom:25px;
-      padding-top:25px;
+#logo {
       width: 50%;
     }
   }
- 
  
   .code {  
     display: flex;
