@@ -12,7 +12,7 @@ document.write(`
       <a class="btn  btn-floating m-1" href="https://www.linkedin.com/in/tom%C3%A1s-k%C3%BCrten-p%C3%A9rez-588b7276/" role="button" target="_blank">
         <img src="imagenes/linkedin.png" alt="" width="50px"></a>
       
-      <a class="btn  btn-floating m-1" href="#!" role="button" target="_blank">
+      <a class="btn  btn-floating m-1" href="#!" role="button">
         <img src="imagenes/youtube.png" alt="" width="50px"></a>
 
       <a class="btn  btn-floating m-1" href="https://github.com/tomaskurtenperez" role="button" target="_blank">
