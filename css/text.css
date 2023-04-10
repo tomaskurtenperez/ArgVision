@@ -6,7 +6,17 @@
    height: 100%;
    overflow-x: hidden
   }
+  iframe { 
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
 
+  .iframes{
+    padding: 5%;
+    display: flex;
+    justify-content: center; 
+align-items: center; 
+  }
   .centerim {
     display: block;
     margin-left: auto;
