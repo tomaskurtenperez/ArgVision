@@ -18,26 +18,40 @@
 
   <div class="center"><h1>Contacto</h1></div>
   <div class="center"><h3>Queremos conocer tus ideas</h3></div>
-  <div class="center"><p>Podes aportar tus proyectos o punto de vista para que podamos seguir avanzando.</p></div>
   
-  <div class="center">  
+
+  <div class="container">
+    <p>Podés aportar tus proyectos o punto de vista para que sigamos creciendo.</p>
+    <p>Dejanos tus datos y un mensaje para que podamos contactarte.</p>
   <form action="https://formspree.io/f/xzbqbrwl" method="post">
-    <fieldset>
-        <legend style="margin:1rem;">Datos personales:</legend>
-        <input size="20" type="text" name="firstname" placeholder="Ingrese su nombre aqui..." style="margin:1rem;">
-        <input size="20" type="email" name="lastname" placeholder="Ingrese su correo aqui..." style="margin:1rem;">
-        <br>
+    <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example1"  name="firstname" class="form-control" />
+          <label class="form-label" for="form6Example1">Nombre</label>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="email" name="lastname" id="form6Example5" class="form-control" />
+          <label class="form-label" for="form6Example5">Email</label>
+        </div>
+      </div>
+    </div>
 
-        <textarea name="comentarios" rows="8" cols="40" placeholder="Ingrese su comentario aqui..." style="margin:1rem;"></textarea>
-        <br>
-        <input type="submit" value="Enviar" style="margin:1rem;">
-        <button type="reset" style="margin:1rem;">Reset</button>
+    <div class="form-outline mb-4">
+      <textarea class="form-control" name="comentarios" id="form6Example7" rows="4"></textarea>
+      <label class="form-label" for="form6Example7">Comentario</label>
+    </div>
+  
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">
+      Enviar
+    </button>
+  </form>
 
-    </fieldset>
-    
+  </div>
 
-</form>
-</div>
   <script src="js/footer.js"></script>
 
 </body>
